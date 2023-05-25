@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 @given(u'Launch Browser')
 def step_impl(context):
-    context.driver = webdriver.Chrome(executable_path="/home/hamza/seleniumproject/chromedriver")
+    context.driver = webdriver.Chrome(executable_path="D:\pytest_behave\pytest_behave_BDD\webdrivers/chromedriver.exe")
     context.driver.maximize_window()
     # context.driver.minimize_window()
 
